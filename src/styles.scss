@@ -1,0 +1,30 @@
+.menu-container {
+  display: flex;
+  width: 20%;
+  padding: 16px;
+}
+.menu-list {
+  width: 50%;
+}
+.main-menu-item {
+  border: 1px solid #ccc;
+  padding: 14px;
+  background-color: #000;
+  color: #fff;
+}
+.child-menu-container {
+  border: 1px solid #000;
+}
+.child-menu-item {
+  padding: 14px;
+  border-bottom: 1px solid #000;
+  background-color: #ccc;
+  color: #000;
+  &:last-child {
+    border: none;
+  }
+}
+.menu-title {
+  display: flex;
+  align-items: center;
+}
